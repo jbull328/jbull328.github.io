@@ -53,6 +53,29 @@ function loadData() {
 
 			$("#loadIn").append('<div class="panel offlineStreamer panel-default"><div class="panel-heading"><a href="' + sLink + sName + '" target="_blank" class="btn btn-default btn-sm pull-right">View Videos</a><h5>' + sName + '</h5></button></div><div class="panel-body">Offline<div class="glyphicon glyphicon-ban-circle pull-right"></div></div>');
 		}
+
+		$('#all').click(function() {
+
+
+				$(".onlineStreamer").show();
+			$(".offlineStreamer").show();
+		});
+
+
+		$('#online').click(function() {
+
+			//$(loadData);
+			$(".onlineStreamer").show();
+			$(".offlineStreamer").hide();
+		});
+
+
+		$('#offline').click(function() {
+
+
+			$(".offlineStreamer").show();
+			$(".onlineStreamer").hide();
+		});
 	}
 });
 };
@@ -64,28 +87,7 @@ function loadData() {
 $(document).ready(loadData);
 	setTimeout(function(){ loadData; }, 20000);
 
-$('#all').click(function() {
 
-
-		$(".onlineStreamer").show();
-	$(".offlineStreamer").show();
-});
-
-
-$('#online').click(function() {
-
-	//$(loadData);
-	$(".onlineStreamer").show();
-	$(".offlineStreamer").hide();
-});
-
-
-$('#offline').click(function() {
-
-
-	$(".offlineStreamer").show();
-	$(".onlineStreamer").hide();
-});
 
 
 //$("navbar-brand").onHover()
