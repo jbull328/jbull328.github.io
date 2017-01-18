@@ -33,3 +33,12 @@ body {
 #top {
   margin-top: 75px;
 }
+
+#portfolio {
+  width: 60%;
+  margin: 22px auto;
+}
+
+#morePortfolio {
+  margin: 12px auto;
+}
