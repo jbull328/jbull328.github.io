@@ -42,3 +42,12 @@ body {
 #morePortfolio {
   margin: 12px auto;
 }
+
+#copy {
+  margin: 8px auto;
+  text-align: center;
+}
+
+#portfolioItem {
+  margin-bottom:  24px;
+}
