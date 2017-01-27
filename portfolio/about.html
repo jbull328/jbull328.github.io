@@ -31,50 +31,42 @@
   <div class="ui inverted vertical masthead center aligned segment" id="mainMasthead">
     <div class="ui container">
       <div class="ui large secondary inverted pointing menu">
-      <div class="header item">
-        <i class="code icon"></i>
-        <a href="index.html">
+        <a class="item" href="index.html">
          Home
         </a>
-
-
-      </div>
       <a class="item" href="about.html">
         About
       </a>
       <a class="item" href="portfolio.html">
         Projects
       </a>
-      <a class="item" href="contact.html">
+      <!-- <a class="item" href="contact.html">
         Contact
-      </a>
+      </a> -->
     </div>
     </div>
 
   <!-- Navigation -->
-
-  <div class="container">
-    <div class="row">
-      <div class="">
-          <h2>John Bull</h2>
-          <h3>Web Developer with Windows Server Admin Expierience</h3>
-          <img class="ui circular small image" src="img/thumb_john.jpg">
-          <p>
-
-      </div>
-      <div class="ui large icon input">
-        <p id="typer">
-        </p>
+  <div id="aboutContainer" class="container">
+  <div class="item portfolioItem">
+    <a class="ui small image">
+      <img class="ui circular small image" src="img/thumb_john.jpg">
+    </a>
+    <div class="content">
+      <a href="projects/WikiView/wikiView_index.html" class="header">John Bull</a>
+      <div class="description">
+        <p id="typer">I love to make things, I have been making things for a while now. I use Javascript, and whatever else I need to get the job done.</p>
+        <p >Let's talk about how I can become a part of your team today.</p>
       </div>
     </div>
   </div>
-
+</div>
 
 
 
 
    <!-- Footer -->
-   <div class="ui inverted footer segment">
+   <div id="foot" class="ui inverted footer segment">
    <div class="ui stackable inverted divided grid">
    <div class="three wide column">
      <div class="ui inverted link list">
@@ -152,7 +144,7 @@
 
       $('#typer').typeIt({
        strings: ["I like to make things.", "I am going to be making things anyway., I might as well be making things for you"],
-       speed: 58,
+       speed: 75,
        breakLines: false,
        autoStart: true
      });

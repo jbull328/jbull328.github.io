@@ -29,26 +29,21 @@
 </head>
 
 <body>
-  <div class="ui inverted vertical masthead center aligned segment" id="mainMasthead">
+  <div class="ui vertical center aligned segment" id="mainMasthead">
     <div class="ui container">
       <div class="ui large secondary inverted pointing menu">
-      <div class="header item">
-        <i class="code icon"></i>
-        <a href="index.html">
+        <a class="item" href="index.html">
          Home
         </a>
-      
-
-      </div>
       <a class="item" href="about.html">
         About
       </a>
       <a class="item" href="portfolio.html">
         Projects
       </a>
-      <a class="item" href="contact.html">
+      <!-- <a class="item" href="contact.html">
         Contact
-      </a>
+      </a> -->
     </div>
     </div>
 
@@ -57,9 +52,9 @@
     <header id="top" class="header">
         <div class="text-vertical-center">
             <h1>John Bull</h1>
-            <h3>Full Stack Software Engineer</h3>
+            <h3>Software Developer</h3>
             <br>
-            <a href="#about" class="btn btn-dark btn-lg">Find Out More</a>
+            <a href="about.html" class="btn btn-dark btn-lg">Find Out More</a>
         </div>
     </header>
   </div>
@@ -68,7 +63,7 @@
 <!-- Callout -->
     <div id="callout" class="ui modal">
         <h2>Available for hire!</h2>
-        <div class="ui text container">I know how to collaborate with teams on complex projects.
+        <div class="ui text container">I want to collaborate with a team on complex projects, using Javascript, Express,<br /> Node.js, and MongoDB.
           <div class="ui relaxed horizontal list" id="skillIcons">
 
                <div class="item">
@@ -101,54 +96,55 @@
 
     <!-- Portfolio -->
     <div class="ui items" id="portfolio">
-  <div class="item portfolioItem">
-    <a class="ui small image">
-      <img class="img-portfolio img-responsive" src="img/TwitchFriends.jpg">
-    </a>
-    <div class="content">
-      <a href="projects/twitchFriends/twitchFriends.html" class="header">Twitch Friends</a>
-      <div class="description">
-        <p>I made this project to work with the twitch API, it gets a list of streamers and shows thier online status.</p>
-        <p>It uses three buttons to filter the online status of the streamers.</p>
+      <div class="item portfolioItems">
+        <a class="ui small image">
+          <img class="img-portfolio img-responsive" src="http://res.cloudinary.com/jbull238/image/upload/c_scale,h_370,w_550/greenTag_nye38x.png">
+        </a>
+        <div class="content">
+          <a href="https://inspectionrequest-e094d.firebaseapp.com/" class="header">Green Tag</a>
+          <div class="description">
+            <p>This is a project created for a client. It uses a firebase backend. I worked primarily on getting connected to the firebase backend,  and gettting authentication working.</p>
+            <p>The project is used by several citys too help manage thier building inspection tickets.</p>
+          </div>
+        </div>
       </div>
-    </div>
-  </div>
-  <div class="item portfolioItem">
-    <a class="ui small image">
-      <img class="img-portfolio img-responsive" src="img/wikiview.png">
-    </a>
-    <div class="content">
-      <a href="projects/WikiView/wikiView_index.html" class="header">Wiki Search</a>
-      <div class="description">
-        <p>I made this project to work with the twitch API, it gets a list of streamers and shows thier online status.</p>
-        <p>It uses three buttons to filter the online status of the streamers.</p>
+      <div class="item portfolioItems">
+        <a class="ui small image">
+          <img class="img-portfolio img-responsive" src="http://res.cloudinary.com/jbull238/image/upload/c_scale,h_370,w_550/emailer_xymcq6.png">
+        </a>
+        <div class="content">
+          <a href="https://mighty-mountain-31348.herokuapp.com/" class="header">Marketing Email App</a>
+          <div class="description">
+            <p>This project was created at a local Hackathon, It is a fully functional web app, with secure login. A user can create a company, and add customers to a database.</p>
+            <p>From the list of customers emails can be sent from the app, and we are tracking whether a link is clicked on the other end. I created the routes in express, I created the Javascript code to email and handle backend processes. I created the server setup and database setup on Heroku and assisted other team members in completing the project.</p>
+          </div>
+        </div>
       </div>
-    </div>
-  </div>
-  <div class="item portfolioItem">
-    <a class="ui small image">
-      <img class="img-portfolio img-responsive" src="img/quote.png">
-    </a>
-    <div class="content">
-      <a href="projects/quoteMachine/index.html" class="header">Quote Machine</a>
-      <div class="description">
-        <p>I made this project to work with the twitch API, it gets a list of streamers and shows thier online status.</p>
-        <p>It uses three buttons to filter the online status of the streamers.</p>
+      <div class="item portfolioItems">
+        <a class="ui small image">
+          <img class="img-portfolio img-responsive" src="img/TwitchFriends.jpg">
+        </a>
+        <div class="content">
+          <a href="projects/twitchFriends/twitchFriends.html" class="header">Twitch Friends</a>
+          <div class="description">
+            <p>I made this project to work with the twitch API, it gets a list of streamers and shows thier online status.</p>
+            <p>It uses three buttons to filter the online status of the streamers.</p>
+          </div>
+        </div>
       </div>
-    </div>
-  </div>
-  <div class="item portfolioItem">
-    <a class="ui small image">
-      <img class="img-portfolio img-responsive" src="img/sonora.png">
-    </a>
-    <div class="content">
-      <a href="projects/Sonora_Trvl2/index.html" class="header">Sonora Travel Site</a>
-      <div class="description">
-        <p>I made this project to work with the twitch API, it gets a list of streamers and shows thier online status.</p>
-        <p>It uses three buttons to filter the online status of the streamers.</p>
+      <div class="item portfolioItems">
+        <a class="ui small image">
+          <img class="img-portfolio img-responsive" src="img/wikiview.png">
+        </a>
+        <div class="content">
+          <a href="projects/WikiView/wikiView_index.html" class="header">Wiki Search</a>
+          <div class="description">
+            <p>I made this project to work with the WikiMedia API, You are a able to search wikipedi from the search bar.</p>
+            <p>It uses rest calls to display the results in bootstrap cards..</p>
+          </div>
+        </div>
       </div>
-    </div>
-  </div>
+
 
 
 </div>

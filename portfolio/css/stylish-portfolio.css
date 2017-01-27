@@ -5,15 +5,29 @@ body {
     width: 100%;
     height: 100%;
     font-size: 16px;
+
 }
 
+#aboutContainer {
+  margin-top: 56px;
+}
+
+#aboutContainer p {
+  margin-top: 38px;
+}
+
+#foot {
+  margin-top: 80px;
+}
 #mainMasthead {
   min-height: 700px;
+  background-image:  url(/home/jbull/Desktop/jbull328.github.io/portfolio/img/congruent_outline.png);
+  /* Background pattern from subtlepatterns.com */
 }
 #callout {
   color: #fff;
-  padding: 28px;
-  height: 240px;
+  padding: 38px;
+  height: 300px;
   background: linear-gradient(
       to right,
       rgba(70,83,143,.5), rgba(7,87,86,.6)
@@ -26,12 +40,13 @@ body {
 }
 
 #skillIcons {
-  margin-top: 14px;
+  margin-top: 29px;
   text-align: center;
 }
 
 #top {
   margin-top: 75px;
+  color: white;
 }
 
 #portfolio {
@@ -48,6 +63,14 @@ body {
   text-align: center;
 }
 
-#portfolioItem {
-  margin-bottom:  24px;
+#portfolio .item {
+  margin-bottom:  36px;
+
+}
+ #projContainer {
+   padding: 10%;
+ }
+
+.whiteText {
+  color: white;
 }
