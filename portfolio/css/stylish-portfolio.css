@@ -21,7 +21,7 @@ body {
 }
 #mainMasthead {
   min-height: 700px;
-  background-image:  url(/img/congruent_outline.png);
+  background-image:  url(portfolio/img/congruent_outline.png);
   /* Background pattern from subtlepatterns.com */
 }
 #callout {
