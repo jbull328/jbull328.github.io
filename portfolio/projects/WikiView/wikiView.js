@@ -24,7 +24,7 @@ $("#go").click(function() {
 
         //Loads data into the Card's
         //-----------------------------------------------
-        $("#loadIn").append("<div class='card col-lg-2 col-md-4 col-sm-6 col-xs-8 col-sm-offset-1 col-xs-offset-1><img class='card-img-top' src='http://res.cloudinary.com/jbull238/image/upload/v1457647249/wikiIMG_rhvujt.png'> <div class='card-block'><h6 class='card-title'>" + data['query']['search'][i]['title'] + "</h6> <p class='card-text'>" + dynamicSnippet +"</p><a href=" + noSpaceUrl  + " class='btn btn-primary'>More</a></div></div>");
+        $("#loadIn").append("<div class='card col-lg-2 col-md-4 col-sm-6 col-xs-8 col-sm-offset-1 col-xs-offset-1'><img class='card-img-top' src='http://res.cloudinary.com/jbull238/image/upload/v1457647249/wikiIMG_rhvujt.png'> <div class='card-block'><h6 class='card-title'>" + data['query']['search'][i]['title'] + "</h6> <p class='card-text'>" + dynamicSnippet +"</p><a href=" + noSpaceUrl  + " class='btn btn-primary'>More</a></div></div>");
     }
 
  }
