@@ -23,6 +23,7 @@ body {
   margin-bottom: 0;
 }
 #mainMasthead {
+  min-height: 700px;
   background-image:  url(../img/congruent_outline.png);
   /* Background pattern from subtlepatterns.com */
 }
@@ -75,4 +76,18 @@ body {
 
 .whiteText {
   color: white;
+}
+
+@media only screen and (max-width: 768px) {
+  #skillIcons {
+    display: none;
+  }
+
+  #callout {
+    padding: 4px;
+  }
+
+  .fa-3x {
+    font-size: 2em;
+  }
 }
