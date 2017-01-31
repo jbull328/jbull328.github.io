@@ -1,6 +1,6 @@
 #quote {
   font-size: 30px;
-  padding-bottom: 16px;
+  height: 275px;
 }
 
 #heading {
@@ -18,8 +18,8 @@
 }
 
 .container {
-  padding: 20px 55px; 
-  
+  padding: 20px 55px;
+
 }
 
 #authTag {
@@ -54,7 +54,7 @@ button {
 
 button:hover {
   background-color: #423A2B;
-  
+
 }
 
 footer {
@@ -75,6 +75,3 @@ footer p {
   font-family: Nunito;
   padding-bottom: 15px;
 }
-
-
-
